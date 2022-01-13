@@ -30,8 +30,11 @@ class Slingshot {
         var pointA = this.sling.bodyA.position;
         var pointB = this.pointB;
         
+            //Condicionamos la posición de las ligas 
         push();
+            //Definimos color 
             stroke("#301608");
+            //Determina la posción y grosor de las ligas de la resortera
             if(pointA.x < 220){
                 strokeWeight(7);
                 line(pointA.x-20, pointA.y, pointB.x-10, pointB.y);
