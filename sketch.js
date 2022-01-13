@@ -35,10 +35,10 @@ function setup(){
 
     box5 = new Box(810,160,70,70);
     log4 = new Log(760,120,150, PI/7);
-    log5 = new Log(870,120,150, -PI/7);
-
-    bird = new Bird(200,50);
+    log5 = new Log(870,120,150, -PI/7); 
     
+    //Ajustamos la posicion del ave y la resortera respecto de las imagenes
+    bird = new Bird(200,50);
     slingshot = new Slingshot(bird.body,{x:200,y:50});
 }
 
